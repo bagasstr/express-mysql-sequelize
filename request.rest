@@ -1,0 +1,41 @@
+GET  http://localhost:5000/api/product
+###
+GET  http://localhost:5000/api/product/2
+
+###
+POST http://localhost:5000/api/product/
+Content-Type: application/json
+
+{
+    "title": "rumah Baru",
+    "description": "dasfsad",
+    "price": "1jt",
+    "bathroom": "1",
+    "bedhroom": "2",
+   "surfaceArea": "2m",
+   "buildingArea": "2m",
+   "developer": "BSD City",
+   "certificate": "N/A",
+   "electrical": "3000Kwh"
+}
+
+###
+PATCH http://localhost:5000/api/product/4
+Content-Type: application/json
+
+{
+    "title": "rumah Baru banget",
+    "description": "dasfsad",
+    "price": "1jt",
+    "bathroom": "1",
+    "bedhroom": "2",
+   "surfaceArea": "2m",
+   "buildingArea": "2m",
+   "developer": "BSD City",
+   "certificate": "N/A",
+   "electrical": "3000Kwh"
+}
+
+
+###
+DELETE http://localhost:5000/api/product/2
