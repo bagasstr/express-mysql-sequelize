@@ -3,7 +3,7 @@ GET  http://localhost:5000/api/product
 GET  http://localhost:5000/api/product/2
 
 ###
-POST http://localhost:5000/api/product/
+POST http://localhost:5000/api/product/3
 Content-Type: application/json
 
 {
@@ -20,7 +20,7 @@ Content-Type: application/json
 }
 
 ###
-PATCH http://localhost:5000/api/product/4
+PATCH http://localhost:5000/api/product/3
 Content-Type: application/json
 
 {
@@ -38,4 +38,4 @@ Content-Type: application/json
 
 
 ###
-DELETE http://localhost:5000/api/product/2
+DELETE http://localhost:5000/api/product/3
